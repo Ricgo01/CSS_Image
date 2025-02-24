@@ -183,62 +183,42 @@ body{
 
 }
 
-.scale1{
+[class^="scale"]{
     width: 20px;
     height: 10px;
     border-radius: 50%;
     background: #333c4a;
     margin-top: 50px;
-    transform: translateX(120px);
+    transform: translateX(150px);
 
 }
 
+.scale1{
+    transform: translateX(-10px);
+}
+
 .scale2{
-    width: 20px;
-    height: 10px;
-    border-radius: 50%;
-    background: #333c4a;
-    margin-top: 50px;
-    transform: translateX(100px);
+    transform: translateX(20px);
 }
 
 
 .scale3{
-    width: 20px;
-    height: 10px;
-    border-radius: 50%;
-    background: #333c4a;
-    margin-top: 50px;
-    transform: translateX(190px) translateY(-70px);
+    transform: translateX(100px) translateY(-70px);
 
 }
 
 .scale4{
-    width: 20px;
-    height: 10px;
-    border-radius: 50%;
-    background: #333c4a;
-    margin-top: 50px;
     transform: translateX(270px) translateY(-200px);
 
 }
 
 .scale5{
-    width: 20px;
-    height: 10px;
-    border-radius: 50%;
-    background: #333c4a;
-    margin-top: 50px;
-    transform: translateX(300px) translateY(-150px);
+    transform: translateX(150px) translateY(-300px);
 }
 
 .scale6{
-    width: 20px;
-    height: 10px;
-    border-radius: 50%;
-    background: #333c4a;
-    margin-top: 50px;
-    transform: translateX(400px) translateY(-250px);
+
+    transform: translateX(200px) translateY(-250px);
 
 }
 
@@ -339,8 +319,8 @@ body{
     border-radius: 50%;
     border: 5px solid black;
     transform: rotate(110deg);
-    margin-top: -145%;
-    margin-left: 105px;
+    margin-top: -1400%;
+    margin-left: 0px;
 }
 
 .leg1 [class^="nail"] {
@@ -375,7 +355,7 @@ body{
     background: transparent;
     border-radius: 40%;
     border: 5px solid black;
-    transform: translateX(300px) translateY(-120px);
+    transform: translateX(190px) translateY(-120px);
 
 }
 
