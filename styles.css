@@ -31,7 +31,7 @@ body{
   
     width: 30px;
     height: calc(30px * 1.5);
-    background: linear-gradient(#a4b7c8, darkblue);;
+    background: #a4b7c8;
     border-radius: 50% 50% / 0 0 calc(30px/ 2) calc(30px/ 2);
     clip-path: polygon(50% 0, 99% 62%, 100% 65%, 100% 100%, 0 100%, 0 65%, 1% 62%);
     transform: rotate(30deg) translateY(2px) translateX(8px);
@@ -298,7 +298,7 @@ body{
     display: block;
     width: 80px;
     height: 70px;
-    background: linear-gradient(#666b77);
+    background: transparent;
     border-radius: 50%;
     border-bottom: 5px solid black;
     transform: rotate(-180deg);
