@@ -31,7 +31,7 @@ body{
   
     width: 30px;
     height: calc(30px * 1.5);
-    background: #a4b7c8;
+    background:  darkblue;
     border-radius: 50% 50% / 0 0 calc(30px/ 2) calc(30px/ 2);
     clip-path: polygon(50% 0, 99% 62%, 100% 65%, 100% 100%, 0 100%, 0 65%, 1% 62%);
     transform: rotate(30deg) translateY(2px) translateX(8px);
