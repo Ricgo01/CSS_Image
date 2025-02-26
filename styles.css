@@ -1,3 +1,7 @@
+:root{
+    --color-principal: #4d5868
+}
+
 body{
     background-color: blanchedalmond;
 }
@@ -13,12 +17,9 @@ body{
 }
 
 .triangle1{
-    --size: 50px;
-    --gradient: #a4b7c8;
-  
-    background: var(--gradient);
-    width: var(--size);
-    height: var(--size);
+    background: #a4b7c8;
+    width: 50px;
+    height: 50px;
     border-radius: 50% 0 50% 0;
     margin-top: -50%;
     margin-left: 50%;
@@ -27,24 +28,20 @@ body{
 }
 
 .triangle_child{
-    --size: 30px;
-    --half-size: calc(var(--size) / 2);
-    --gradient: linear-gradient(#a4b7c8, darkblue);
   
-    width: var(--size);
-    height: calc(var(--size) * 1.5);
-    background: var(--gradient);
-    border-radius: 50% 50% / 0 0 var(--half-size) var(--half-size);
+    width: 30px;
+    height: calc(30px * 1.5);
+    background: linear-gradient(#a4b7c8, darkblue);;
+    border-radius: 50% 50% / 0 0 calc(30px/ 2) calc(30px/ 2);
     clip-path: polygon(50% 0, 99% 62%, 100% 65%, 100% 100%, 0 100%, 0 65%, 1% 62%);
     transform: rotate(30deg) translateY(2px) translateX(8px);
 }
 
 .triangle1 ~ [class^="triangle"]{
-    --size: 50px;
-    --gradient: #a4b7c8;
-    background: var(--gradient);
-    width: var(--size);
-    height: var(--size);
+
+    background: #a4b7c8;
+    width: 50px;
+    height: 50px;
     border-radius: 50% 0 50% 0;
     z-index: -1;
 }
@@ -108,7 +105,7 @@ body{
 .godz_head{
     width: 400px;
     height: calc(400px/2);
-    background: #4d5868;
+    background: var(--color-principal);
     border-radius: 50% 50% / calc(400px/2) calc(400px/2) 0 0;
     margin-left: 10px;
     margin-top: 200px;
@@ -137,7 +134,7 @@ body{
 .godz_tail{
     width: 200px;
     height: calc(200px/2);
-    background: #4d5868;
+    background: var(--color-principal);
     border-radius: 50% 50% / calc(200px/2) calc(200px/2) 0 0;
     margin-top: 60%;
     margin-left: 130%;
@@ -163,7 +160,7 @@ body{
     margin-top: 200px;
     width: 500px;
     height: calc(400px/2);
-    background: #4d5868;
+    background: var(--color-principal);
     border-radius: 50% 50% / calc(400px/2) calc(400px/2) 0 0;
     justify-content: center;
     display:flex;
@@ -254,13 +251,11 @@ body{
 }
 
 .nose4{
-    --size: 10px;
-    --half-size: calc(var(--size) / 2);
-  
-    width: var(--size);
-    height: calc(var(--size) * 1.5);
+
+    width: 10px;
+    height: calc(10px * 1.5);
     background: black;
-    border-radius: 50% 50% / 0 0 var(--half-size) var(--half-size);
+    border-radius: 50% 50% / 0 0 calc(10px / 2) calc(10px / 2);
     clip-path: polygon(50% 0, 99% 62%, 100% 65%, 100% 100%, 0 100%, 0 65%, 1% 62%);
     margin-top: -21%;
     margin-left: 28%;
@@ -291,7 +286,7 @@ body{
     display: block;
     width: 90px;
     height: 90px;
-    background: #4d5868;
+    background: var(--color-principal);
     border-radius: 50%;
     margin-top: -19.5%;
     border-left: 10px solid black;
